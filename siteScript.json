@@ -1,0 +1,197 @@
+{
+     "$schema": "schema.json",
+         "actions": [
+             {
+                 "verb": "createSPList",
+                 "listName": "Liste d'actions",
+                 "templateType": 100,
+                 "subactions": [
+                     {
+                         "verb": "SetDescription",
+                         "description": "Liste des actions à mener"
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Text",
+                         "displayName": "Action",
+                         "isRequired": true,
+                         "addToDefaultView": true
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Note",
+                         "displayName": "Description",
+                         "addToDefaultView": true,
+                         "isRequired": true
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "User",
+                         "displayName": "Assignée à",
+                         "addToDefaultView": true,
+                         "isRequired": true
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Text",
+                         "displayName": "Lien",
+                         "isRequired": false
+                     }
+                 ],
+                 "verb": "createSPList",
+                 "listName": "Liste de décisions",
+                 "templateType": 100,
+                 "subactions": [
+                     {
+                         "verb": "SetDescription",
+                         "description": "Liste de décisions prises"
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Text",
+                         "displayName": "Décision",
+                         "isRequired": true,
+                         "addToDefaultView": true
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Notet",
+                         "displayName": "Description",
+                         "addToDefaultView": true,
+                         "isRequired": true
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Text",
+                         "displayName": "Lien",
+                         "isRequired": false
+                     }
+                 ],
+                 "verb": "createSPList",
+                 "listName": "Risques",
+                 "templateType": 100,
+                 "subactions": [
+                     {
+                         "verb": "SetDescription",
+                         "description": "Liste des risques impactant le projet"
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Text",
+                         "displayName": "Risque",
+                         "isRequired": true,
+                         "addToDefaultView": true
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Note",
+                         "displayName": "Description",
+                         "addToDefaultView": true,
+                         "isRequired": true
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Number",
+                         "displayName": "Gravité",
+                         "addToDefaultView": true,
+                         "isRequired": true
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Text",
+                         "displayName": "Lien",
+                         "isRequired": false
+                     }
+                 ],
+                 "verb": "createSPList",
+                 "listName": "Suivi des incidents",
+                 "templateType": 100,
+                 "subactions": [
+                     {
+                         "verb": "SetDescription",
+                         "description": "Suivi des incidents"
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Text",
+                         "displayName": "Incident",
+                         "isRequired": true,
+                         "addToDefaultView": true
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Note",
+                         "displayName": "Description",
+                         "addToDefaultView": true,
+                         "isRequired": true
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Text",
+                         "displayName": "Etat",
+                         "addToDefaultView": true,
+                         "isRequired": true
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Text",
+                         "displayName": "Lien",
+                         "isRequired": false
+                     }
+                 ],
+                 "verb": "createSPList",
+                 "listName": "Tâches",
+                 "templateType": 107,
+                 "subactions": [
+                     {
+                         "verb": "SetDescription",
+                         "description": "Liste des tâches à réaliser pour mener à bien le projet"
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Text",
+                         "displayName": "Tâche",
+                         "isRequired": true,
+                         "addToDefaultView": true
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Note",
+                         "displayName": "Description",
+                         "addToDefaultView": true,
+                         "isRequired": true
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "User",
+                         "displayName": "Assignée à",
+                         "addToDefaultView": true,
+                         "isRequired": true
+                     },
+                     {
+                         "verb": "addSPField",
+                         "fieldType": "Text",
+                         "displayName": "Lien",
+                         "addToDefaultView": true,
+                         "isRequired": false
+                     },
+                     {
+                        "verb": "addSPField",
+                        "fieldType": "DateTime",
+                        "displayName": "Start",
+                        "addToDefaultView": true,
+                        "isRequired": true
+                    },
+                    {
+                       "verb": "addSPField",
+                       "fieldType": "DateTime",
+                       "displayName": "Due",
+                       "addToDefaultView": true,
+                       "isRequired": true
+                   }
+                 ]
+             }
+         ],
+             "bindata": { },
+     "version": 1
+ }
